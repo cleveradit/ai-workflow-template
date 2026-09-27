@@ -51,7 +51,7 @@ Never write code without going through this flow first. Do not create `implement
 **Step 1 — Backlog (`docs/backlog.md`)**
 New bugs/ideas go here without ticket numbers. Status: `READY` or `BLOCKED`. Remove the item once it becomes a planning ticket.
 
-**Step 2 — Planning (`docs/planning/TICKET-NAME.md`)**
+**Step 2 — Planning (`docs/planning/TICKET-NUMBER-NAME.md`)**
 Create the plan before writing any code. Use `docs/planning/_template-implementation-plan.md`. Register in `docs/planning/index.md`. Get explicit user approval before executing.
 
 Status lifecycle: `DRAFT` → `REVIEW` → `READY` → `DONE`.

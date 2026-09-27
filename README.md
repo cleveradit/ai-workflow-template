@@ -82,7 +82,7 @@ Lalu ikuti [checklist inisialisasi](#checklist-inisialisasi).
 
 ## Checklist inisialisasi
 
-Setelah template terpasang, isi 4 file ini sesuai project-mu. Urutan disarankan:
+Setelah template terpasang, isi 7 file inti berikut sesuai project-mu. Dua file terakhir bersifat opsional. Urutan disarankan:
 
 ### 1. `CLAUDE.md` — ganti nama project
 
@@ -107,11 +107,23 @@ Setiap section sudah ada placeholder `<!-- ISI DI SINI -->` dan contoh kalimat s
 
 > **Tips:** Section 1–4 bisa diisi bertahap. Mulai dari Tech Stack dulu (5 menit), lalu tambah Rules sambil jalan.
 
-### 3. `docs/backlog.md` — opsional, bisa dikosongkan dulu
+### 3. `docs/index.md` — isi identitas project
+
+Ganti `[Project Name]`, `[project name]`, dan bagian **Stack** dengan informasi project-mu. Periksa kembali tautan di hub ini setelah mengisi dokumen lainnya.
+
+### 4. `docs/architecture.md` — isi peta arsitektur
+
+Gunakan template yang tersedia untuk menjelaskan komponen, lokasi kode, dependensi, alur utama, dan integrasi project. Hapus baris contoh yang tidak berlaku.
+
+### 5. `docs/data-model.md` — isi model data
+
+Gunakan template yang tersedia untuk mencatat penyimpanan data, entitas/tabel, field penting, dan relasi. Jika project tidak menyimpan data persisten, tulis bahwa bagian ini tidak berlaku beserta alasannya.
+
+### 6. `docs/backlog.md` — opsional, bisa dikosongkan dulu
 
 Format item backlog sudah tersedia di file. Tidak wajib diisi di awal.
 
-### 4. `docs/decision-log.md` — opsional, bisa dikosongkan dulu
+### 7. `docs/decision-log.md` — opsional, bisa dikosongkan dulu
 
 Format entry + kriteria pencatatan sudah tersedia. Isi saat keputusan teknis pertama muncul.
 
@@ -119,7 +131,6 @@ Format entry + kriteria pencatatan sudah tersedia. Isi saat keputusan teknis per
 
 - `docs/planning/` — akan terisi otomatis saat kamu mulai membuat ticket planning dengan AI agent.
 - `docs/features/` — akan terisi otomatis saat fitur sudah selesai dikerjakan.
-- `docs/index.md` — sudah generik, tidak perlu diubah kecuali mau menambah section.
 
 ---
 
@@ -146,7 +157,7 @@ Claude akan menambahkannya ke `docs/backlog.md`.
 "Bikin planning ticket untuk fitur dark mode."
 ```
 
-Claude akan membuat file `docs/planning/TICKET-001.md` dari template `_template-implementation-plan.md`, lalu mendaftarkannya di `docs/planning/index.md`. Kamu review, approve (status jadi `READY`), lalu Claude eksekusi.
+Claude akan membuat file `docs/planning/TICKET-001-dark-mode.md` dari template `_template-implementation-plan.md`, lalu mendaftarkannya di `docs/planning/index.md`. Kamu review, approve (status jadi `READY`), lalu Claude eksekusi.
 
 ### Fitur selesai → feature doc
 
@@ -181,8 +192,8 @@ Setelah ticket `DONE`, Claude akan memindahkan file-nya ke `docs/planning/Ticket
     ├── index.md                        # Hub dokumentasi
     ├── backlog.md                      # Ide/bug yang belum jadi ticket
     ├── decision-log.md                 # Keputusan teknis & trade-off
-    ├── architecture.md                 # (kamu yang bikin) peta modul/komponen
-    ├── data-model.md                   # (kamu yang bikin) struktur data
+    ├── architecture.md                 # peta modul/komponen
+    ├── data-model.md                   # struktur data
     ├── features/
     │   ├── index.md                    # Indeks fitur + konvensi penulisan
     │   └── *.md                        # Doc per fitur (terisi seiring waktu)
