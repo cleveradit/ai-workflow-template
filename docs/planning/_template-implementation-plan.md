@@ -53,6 +53,8 @@ Rules:
 
 ## 4. Scope of Changes
 
+Add/remove areas as needed.
+
 ### A. [Area A]
 
 1. [Step]
@@ -84,12 +86,13 @@ Notes:
 
 1. Include at least one boundary case.
 2. Include at least one negative/failure case.
+3. If a boundary or failure case is not relevant (e.g. docs/config-only ticket), write `N/A — <reason>` instead.
 
 ---
 
 ## 6. Verification Commands
 
-Run and record results:
+Run and record results (add/remove commands as needed):
 
 1. `[command 1]`
 2. `[command 2]`

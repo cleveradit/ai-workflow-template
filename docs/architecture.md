@@ -1,21 +1,21 @@
 # Architecture Map
 
-<!-- ISI: ganti placeholder dengan struktur project yang sudah diverifikasi dari kode. Hapus baris yang tidak berlaku. -->
+<!-- FILL IN: replace the placeholders with the project structure as verified from the code. Remove rows that do not apply. -->
 
-## Ringkasan
+## Summary
 
-<!-- Jelaskan tujuan sistem, batasnya, dan komponen utama dalam 2–4 kalimat. -->
+<!-- Describe the system's purpose, its boundaries, and its main components in 2–4 sentences. -->
 
-## Komponen
+## Components
 
-| Komponen | Tanggung jawab | Lokasi kode | Dependensi |
+| Component | Responsibility | Code location | Dependencies |
 |---|---|---|---|
-| [Nama komponen] | [Peran utama] | `[path]` | [Komponen atau layanan terkait] |
+| [Component name] | [Main role] | `[path]` | [Related components or services] |
 
-## Alur utama
+## Main flows
 
-<!-- Uraikan alur permintaan atau pekerjaan penting dari titik masuk hingga hasilnya. -->
+<!-- Describe the important request or job flows from entry point to result. -->
 
-## Integrasi eksternal
+## External integrations
 
-<!-- Catat API, layanan, antrean, atau sistem luar beserta arah pertukaran datanya. Jika tidak ada, tulis "Tidak ada". -->
+<!-- List APIs, services, queues, or external systems and the direction of data exchange. If none, write "None". -->

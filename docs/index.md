@@ -1,24 +1,24 @@
 # [Project Name] — Documentation Hub
 
-Hub dokumentasi untuk project [project name]. Ditulis agar mudah dicerna developer maupun AI agent.
+Documentation hub for the [project name] project. Written to be easy to digest for both developers and AI agents.
 
-**Stack:** <!-- ISI: tech stack singkat, mis. Go 1.23 · React 19 · PostgreSQL · Redis -->
+**Stack:** <!-- FILL IN: short tech stack, e.g. Go 1.23 · React 19 · PostgreSQL · Redis -->
 
-## Mulai dari sini
+## Start here
 
-Urutan baca untuk memahami project tanpa membaca kode:
+Reading order to understand the project without reading code:
 
-1. **[AI Context & Mandat](ai-context.md)** — aturan absolut, batas arsitektur, perintah lingkungan dev. Wajib dibaca pertama.
-2. **[Architecture Map](architecture.md)** — peta modul, public surface, dan keterkaitannya.
-3. **[Data Model Reference](data-model.md)** — seluruh tabel/collection, kolom/field, relasi, dan enum inti.
-4. **[Feature Docs Index](features/index.md)** — detail per fitur.
+1. **[AI Context & Mandates](ai-context.md)** — absolute rules, architecture boundaries, dev environment commands. Read first.
+2. **[Architecture Map](architecture.md)** — module map, public surface, and how they relate.
+3. **[Data Model Reference](data-model.md)** — all tables/collections, columns/fields, relations, and core enums.
+4. **[Feature Docs Index](features/index.md)** — per-feature details.
 
-## Proses & Perencanaan
+## Process & Planning
 
-- **[Backlog](backlog.md)** — bug/ide belum berstatus tiket.
-- **[Planning](planning/index.md)** — rencana implementasi aktif.
-- **[Decision Log](decision-log.md)** — keputusan teknis & trade-off non-obvious.
+- **[Backlog](backlog.md)** — bugs/ideas not yet ticketed.
+- **[Planning](planning/index.md)** — active implementation plans.
+- **[Decision Log](decision-log.md)** — technical decisions & non-obvious trade-offs.
 
 ---
 
-*Feature doc disimpan di `docs/features/`. Item belum diimplementasi di `docs/backlog.md`; rencana aktif di `docs/planning/`.*
+*Feature docs live in `docs/features/`. Unimplemented items live in `docs/backlog.md`; active plans in `docs/planning/`.*

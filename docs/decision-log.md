@@ -1,27 +1,22 @@
 # Decision Log
 
-Catat keputusan yang memenuhi minimal satu kriteria:
-- Gotcha/trap teknis yang tidak bisa diturunkan dari membaca kode
-- Trade-off bisnis dengan konsekuensi non-obvious
-- Koreksi atas asumsi atau mandat yang sebelumnya salah
+Recording criteria: see [ai-context.md §5 Step 4](ai-context.md#5-documentation-workflow).
 
-Jangan catat: cleanup code, perubahan UI minor, atau hal yang sudah terdokumentasi di `ai-context.md` sendiri. Entry yang SUPERSEDED harus dihapus, bukan dibiarkan.
-
-Format per entry (4 field):
+Entry format (4 fields):
 
 ```markdown
-## DEC-XXX — Judul singkat
+## DEC-XXX — Short title
 
-**Decision:** Apa yang diputuskan.
+**Decision:** What was decided.
 
-**Why:** Kenapa — constraint, bug, atau asumsi yang salah.
+**Why:** Why — the constraint, bug, or wrong assumption.
 
-**Impact:** Konsekuensi konkret yang tidak obvious dari kode.
+**Impact:** Concrete consequences that are not obvious from the code.
 
-**Tickets:** TICKET-XXX (opsional)
+**Tickets:** TICKET-XXX (optional)
 ```
 
 ---
 
-<!-- ISI DECISION LOG DI BAWAH INI -->
+<!-- ADD DECISION LOG ENTRIES BELOW -->
 

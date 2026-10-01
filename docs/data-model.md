@@ -1,23 +1,23 @@
 # Data Model Reference
 
-<!-- ISI: dokumentasikan hanya struktur data yang sudah diverifikasi. Jika tidak ada penyimpanan persisten, nyatakan alasannya dan hapus tabel contoh. -->
+<!-- FILL IN: document only verified data structures. If there is no persistent storage, state why and remove the example tables. -->
 
-## Penyimpanan data
+## Data storage
 
-<!-- Sebutkan database, file, atau penyimpanan lain serta fungsi masing-masing. -->
+<!-- List the databases, files, or other storage and what each is used for. -->
 
-## Entitas atau tabel
+## Entities or tables
 
-| Entitas/tabel | Tujuan | Sumber definisi |
+| Entity/table | Purpose | Definition source |
 |---|---|---|
-| [Nama] | [Data yang disimpan] | `[path skema/model]` |
+| [Name] | [Data stored] | `[schema/model path]` |
 
-## Field penting
+## Key fields
 
-| Entitas/tabel | Field | Tipe | Aturan atau batasan |
+| Entity/table | Field | Type | Rules or constraints |
 |---|---|---|---|
-| [Nama] | [Field] | [Tipe] | [Wajib, unik, default, atau validasi] |
+| [Name] | [Field] | [Type] | [Required, unique, default, or validation] |
 
-## Relasi dan enum
+## Relations and enums
 
-<!-- Jelaskan relasi, foreign key, dan enum inti. Jika tidak ada, tulis "Tidak ada". -->
+<!-- Describe relations, foreign keys, and core enums. If none, write "None". -->

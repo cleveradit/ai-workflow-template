@@ -8,22 +8,22 @@ Before starting any item here, it **MUST** be converted into a detailed implemen
 
 ## Format
 
-Setiap item backlog mengikuti format berikut:
+Each backlog item follows this format:
 
 ```markdown
-## [Judul Fitur/Ide]
+## [Feature/Idea Title]
 
-**Status:** `READY` | `BLOCKED` *(alasan blocker)*
+**Status:** `OPEN` | `BLOCKED` *(blocker reason)*
 
-**Ringkasan:** 2-4 kalimat menjelaskan apa yang diinginkan.
+**Summary:** 2-4 sentences describing what is wanted.
 
-**Pertanyaan terbuka (matangkan saat planning):**
-1. [Pertanyaan 1]
-2. [Pertanyaan 2]
-3. [Pertanyaan 3]
+**Open questions (resolve during planning):**
+1. [Question 1]
+2. [Question 2]
+3. [Question 3]
 ```
 
 ---
 
-<!-- ISI BACKLOG DI BAWAH INI -->
+<!-- ADD BACKLOG ITEMS BELOW -->
 
